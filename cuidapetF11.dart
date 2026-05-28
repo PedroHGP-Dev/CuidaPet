@@ -4,7 +4,7 @@ class Produto {
   final int codigo;
   final String nome;
   final double preco;
-
+  
   Produto(this.codigo, this.nome, this.preco);
 }
 
