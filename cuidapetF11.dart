@@ -24,7 +24,7 @@ class Carrinho {
   bool get estaVazio => nomes.isEmpty;
   bool get estaCheio => nomes.length >= limiteItens;
   int get quantidadeItens => nomes.length;
-
+    
   bool adicionarItem(String nome, double preco) {
     if (estaCheio) return false;
     nomes.add(nome);
